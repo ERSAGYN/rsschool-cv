@@ -17,6 +17,6 @@ stock select_skin(playerid)
   TogglePlayerControllable(playerid, 0);
 }
 ```
-6. games (snake on js, XO's on js, python), pawno (https://github.com/ERSAGYN/samp), web-sites (only layout)
+6. games (snake on js, XO's on js, python), pawno ([click](https://github.com/ERSAGYN/samp)), web-sites (only layout)
 7. youtube.com, google.com
 8. English. School, self-education.
