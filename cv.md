@@ -1,6 +1,6 @@
 1. Yersagyn Konyrtayev
 2. VK: [click](vk.com/the.ersa)
-3. I want to create a giant IT-company like Google, Apple and etc. and name the company "ERSA INCORPORATED". My money will be spent to improve the world (e.g. improve ecology and solving other global problems)
+3. I want to create a giant IT-company like Google, Apple and etc. and name the company "ERSA INCORPORATED". My money will be spent to improve the world (e.g. improve ecology and solving other global problems). Also i want to imrpove my country
 4. JavaScript, pawno (GTA San Andreas Multiplayer game), Python, Web-programming.
 5.
 ```pawno
