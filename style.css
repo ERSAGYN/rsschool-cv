@@ -1,0 +1,111 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #5CCCCC;
+}
+
+main {
+	box-shadow: 0 0 7px black;
+	background-color: white;
+	width: 60vw;
+	display: block;
+	height: 100vh;
+	position: absolute;
+	left: 20%;
+	overflow: auto;
+}
+header {
+	width: 100%;
+	display: block;
+}
+.links{
+	position: fixed;
+	bottom: 0;
+	left: 20%;
+	background: grey;
+	padding: 7px;
+	opacity: 0.5;
+	border-radius: 10px 10px 10px 0;
+}
+.logos:hover {
+	filter: invert(1);
+}
+.decor {
+	background: url(img/kazdecorvert.png) repeat-y;
+	background-size: 100px 233px;
+	width: 100px;
+	height: 100vh;
+	position: absolute;
+}
+.decorhoriz {
+	background: url(img/kazdecorhoriz.png) repeat-x;
+	background-size: 69px 30px;
+	height: 30px;
+	width: 100vw;
+	position: absolute;
+	display: none;
+}
+#avatar {
+	margin: 50px;
+	box-shadow: 0 0 7px black;
+	border-radius: 100%;
+	float: left;
+}
+#name {
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+}
+#address, #jobtitle, #birthdate {
+	font-size: 20px;
+}
+.basic-info {
+	height: 250px;
+	padding-top: 75px;
+	color: grey;
+	line-height: 30px;
+}
+#description {
+	font-family: Verdana, sans-serif;
+	margin: 0 50px;
+	padding: 20px;
+	background: #D49F4D;
+}
+@media (max-width: 1060px) {
+	main {
+		width: 70vw;
+		height: 100vh;
+		left: 15%;
+	}
+	.links {
+		left: 15%;
+	}
+}
+@media (max-width: 915px) {
+	header {
+		text-align: center;
+	}
+	#avatar {
+		float: none;
+	}
+	.basic-info {
+		float: none;
+		padding-top: 0;
+	}
+}
+@media (max-width: 770px) {
+	main {
+		width: 100vw;
+		left: 0;
+		overflow-x: hidden;
+	}
+	.decor {
+		display: none;
+	}
+	.decorhoriz {
+		display: block;
+	}
+	.links {
+		left: 0;
+	}
+}
